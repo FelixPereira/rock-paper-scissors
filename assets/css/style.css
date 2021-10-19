@@ -1,68 +1,68 @@
 * {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
- background: hsl(214, 47%, 23%);
- font-family: sans-serif;
+    background: hsl(214, 47%, 23%);
+    font-family: sans-serif;
 }
 
 .container {
- padding: 2rem 8%;
+    padding: 2rem 8%;
 }
 
 
 /* Header start */
 
 .header {
- display: flex;
- justify-content: space-between;
- border: 3px solid hsl(217, 16%, 45%);
- padding: 0.9rem 1rem 0.9rem 1.7rem;
- border-radius: 5px;
- align-items: center;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid hsl(217, 16%, 45%);
+    padding: 0.9rem 1rem 0.9rem 1.7rem;
+    border-radius: 5px;
+    align-items: center;
 }
 
 .header__options {
- display: flex;
- flex-direction: column;
- list-style: none;
- width: 50%;
- justify-content: center;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    width: 50%;
+    justify-content: center;
 }
 
 .header__options li {
- font-size: 1.12rem;
- font-weight: 600;
- color: #ffffff;
- text-transform: uppercase;
- line-height: 1.5;
+    font-size: 1.12rem;
+    font-weight: 600;
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 1.5;
 }
 
 .header__score {
- display: flex;
- flex-direction: column;
- align-items: center;
- width: 25%;
- background: #ffffff;
- padding: 0.8rem 0.5rem 0.5rem;
- border-radius: 5px;
- justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    background: #ffffff;
+    padding: 0.8rem 0.5rem 0.5rem;
+    border-radius: 5px;
+    justify-content: center;
 }
 
 .header__score small {
- text-transform: uppercase;
- font-size: 0.6rem;
- font-weight: 700;
- letter-spacing: 1px;
- color: hsl(229, 64%, 46%);
+    text-transform: uppercase;
+    font-size: 0.6rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: hsl(229, 64%, 46%);
 }
 
 .header__score h2 {
- font-size: 2.5rem;
- color: hsl(229, 25%, 31%);
+    font-size: 2.5rem;
+    color: hsl(229, 25%, 31%);
 }
 
 /* Header end */
@@ -70,37 +70,52 @@ body {
 /* Options start */
 
 .options {
- padding: 6.25rem 0;
- display: grid;
- grid-template-areas: 
-       "paper a scissors"
-       "b rock c";
+    padding: 6.25rem 0;
+    display: grid;
+    grid-template-areas: 
+          "paper a scissors"
+          "b rock c";
 }
 
 .options__paper {
- background: #ffffff;
- border: 15px solid yellow;
- border-radius: 100%;
- padding: 25px 0;
- text-align: center;
- grid-area: paper;
+     background: #ffffff;
+     border: 15px solid blue;
+     border-radius: 100%;
+     padding: 25px 0;
+     text-align: center;
+     grid-area: paper;
 }
 
 .options__rock {
- background: #ffffff;
- border: 15px solid yellow;
- border-radius: 100%;
- padding: 25px 0;
- text-align: center;
- grid-area: rock;
+     background: #ffffff;
+     border: 15px solid red;
+     border-radius: 100%;
+     padding: 25px 0;
+     text-align: center;
+     grid-area: rock;
 }
 
 .options__scissors {
- background: #ffffff;
- border: 15px solid yellow;
- border-radius: 100%;
- padding: 25px 0;
- text-align: center;
- grid-area: scissors;
+     background: #ffffff;
+     border: 15px solid yellow;
+     border-radius: 100%;
+     padding: 25px 0;
+     text-align: center;
+     grid-area: scissors;
 }
 /* Options end */
+
+/* Rukes btn start */
+
+.rules__btn {
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 600;
+    letter-spacing: 1.6;
+    font-size: 0.9rem;
+    padding: 0.8rem 2.7rem;
+    border: 2px solid hsl(217, 16%, 45%);;
+    background: transparent;
+    text-align: center;
+    border-radius: 10px;
+}
