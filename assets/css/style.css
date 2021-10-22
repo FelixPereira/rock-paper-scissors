@@ -11,6 +11,9 @@ body {
 
 .container {
     padding: 2rem 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
@@ -23,6 +26,7 @@ body {
     padding: 0.9rem 1rem 0.9rem 1.7rem;
     border-radius: 5px;
     align-items: center;
+    width: 100%;
 }
 
 .header__options {
@@ -75,6 +79,7 @@ body {
     grid-template-areas: 
           "paper a scissors"
           "b rock c";
+    width: 100%;
 }
 
 .options__paper {
@@ -118,4 +123,5 @@ body {
     background: transparent;
     text-align: center;
     border-radius: 10px;
+    text-align: center;
 }
